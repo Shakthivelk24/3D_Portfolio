@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  Movie,
+  VA,
+  Game
 } from "../assets";
 
 export const navLinks = [
@@ -72,17 +76,13 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,21 +97,21 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Java",
+    icon: java,
+  }
 ];
 
 const experiences = [
@@ -198,68 +198,88 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
+  name: "MovieGo",
+  description:
+    "Full-stack movie ticket booking platform where users can browse movies, book tickets, manage favorites, and receive notifications about upcoming shows. Built using the MERN stack with modern authentication and background job processing.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "nodejs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "express",
+      color: "yellow-text-gradient",
+    },
+  ],
+  image: Movie,
+  source_code_link: "https://github.com/Shakthivelk24/MovieGo",
+},
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
+  name: "AI Virtual Assistant",
+  description:
+    "A smart voice-enabled AI assistant built with the MERN stack that can listen, process queries, and respond using AI-powered replies. The assistant supports speech interaction, personalized avatars, secure authentication, and adaptive behavior to create a human-like digital companion experience.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "nodejs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "gemini-ai",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "cloudinary",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: VA,
+  source_code_link: "https://github.com/Shakthivelk24/virtual-assistant",
+},
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  name: "Blue Boy Adventure",
+  description:
+    "A 2D top-down adventure game where players explore a forest map, collect keys and power-ups, unlock doors, and reach the hidden treasure while tracking completion time. The game is built using classic tile-based mechanics and object-oriented design in Java.",
+  tags: [
+    {
+      name: "java",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "oop",
+      color: "green-text-gradient",
+    },
+    {
+      name: "2d-game",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "game-development",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: Game,
+  source_code_link: "https://github.com/Shakthivelk24/2DGame",
+},
 ];
 
 export { services, technologies, experiences, testimonials, projects };

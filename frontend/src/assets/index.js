@@ -35,6 +35,17 @@ import Movie from "./output.png"
 import VA from "./VA.png"
 import Game from "./Game.png"
 
+import jenkins from "./tech/Jenkins.png"
+import grafana from "./tech/Grafana.png"
+import prometheus from "./tech/Promethus.png"
+import sonarQube from "./tech/SonarQube.webp"
+import trivy from "./tech/Trivy.png"
+import zap from "./tech/Zap.webp";
+import kubernetes from "./tech/kubernetes.png";
+import DropZone from "./DropZone.png";
+import DevSecOps from "./DevSecOps.jpeg";
+import aqualensAI from "./aqualensAI.png"
+
 export {
   logo,
   backend,
@@ -67,5 +78,15 @@ export {
   tripguide,
   Movie,
   VA,
-  Game
+  Game,
+  jenkins,
+  grafana,
+  prometheus,
+  sonarQube,
+  trivy,
+  zap,
+  kubernetes,
+  DevSecOps,
+  DropZone,
+  aqualensAI
 };

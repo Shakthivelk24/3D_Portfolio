@@ -26,7 +26,17 @@ import {
   java,
   Movie,
   VA,
-  Game
+  Game,
+  jenkins,
+  grafana,
+  prometheus,
+  sonarQube,
+  trivy,
+  zap,
+  kubernetes,
+  DevSecOps,
+  DropZone,
+  aqualensAI
 } from "../assets";
 
 export const navLinks = [
@@ -58,7 +68,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DevOps Engineer",
     icon: creator,
   },
 ];
@@ -111,7 +121,35 @@ const technologies = [
   {
     name: "Java",
     icon: java,
-  }
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
+  },
+  {
+    name: "Grafana",
+    icon: grafana,
+  },
+  {
+    name: "Prometheus",
+    icon: prometheus,
+  },
+  {
+    name: "SonarQube",
+    icon: sonarQube,
+  },
+  {
+    name: "Trivy",
+    icon: trivy,
+  },
+  {
+    name: "OWASP ZAP",
+    icon: zap,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
 ];
 
 const experiences = [
@@ -279,6 +317,97 @@ const projects = [
   ],
   image: Game,
   source_code_link: "https://github.com/Shakthivelk24/2DGame",
+},
+{
+  name: "DropZone",
+  description:
+    "A modern cloud-based file storage and management platform built with the MERN stack that enables users to securely upload, organize, search, and share files. It features drag-and-drop uploads, folder management, storage analytics, secure authentication, and a fully responsive interface for seamless file management across devices.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "nodejs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "cloudinary",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "clerk",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: DropZone,
+  source_code_link: "https://github.com/Shakthivelk24/DropZone",
+},
+{
+  name: "AquaLens AI",
+  description:
+    "An AI-powered geospatial groundwater monitoring system that leverages satellite data, urban activity indicators, and machine learning to predict groundwater depletion risks. The platform provides interactive maps, risk analysis, and early warning insights through a real-time dashboard, enabling proactive water resource management and data-driven decision-making.",
+  tags: [
+    {
+      name: "react",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "fastapi",
+      color: "green-text-gradient",
+    },
+    {
+      name: "python",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "xgboost",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "random-forest",
+      color: "orange-text-gradient",
+    },
+  ],
+  image: aqualensAI,
+  source_code_link: "https://github.com/PraveenKumarM17/AquaLens-AI",
+},
+{
+  name: "Secure DevOps Pipeline",
+  description:
+    "A production-ready DevSecOps pipeline built for an NPM-based Node.js application that automates secure software delivery from code commit to Kubernetes deployment. The pipeline integrates Jenkins for CI/CD, SonarQube for code quality analysis, Trivy for dependency and container vulnerability scanning, OWASP ZAP for dynamic security testing, Docker for containerization, Kubernetes for orchestration, and Prometheus with Grafana for continuous monitoring and observability.",
+  tags: [
+    {
+      name: "jenkins",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "docker",
+      color: "green-text-gradient",
+    },
+    {
+      name: "kubernetes",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "sonarqube",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "owasp-zap",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "trivy",
+      color: "red-text-gradient",
+    },
+  ],
+  image: DevSecOps,
+  source_code_link: "https://github.com/Shakthivelk24/Request-System-DevSecOps",
 },
 ];
 

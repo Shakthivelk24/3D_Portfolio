@@ -88,5 +88,5 @@ export {
   kubernetes,
   DevSecOps,
   DropZone,
-  aqualensAI
+  aqualensAI,
 };

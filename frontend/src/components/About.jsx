@@ -47,12 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a passionate software developer with experience in JavaScript and
-        modern web technologies. I specialize in building full-stack
-        applications using the MERN stack (MongoDB, Express, React, Node.js) and
-        integrating AI-powered features into real-world applications. I enjoy
-        creating scalable, efficient, and user-friendly solutions that solve
-        practical problems and improve user experiences.
+        I'm a passionate software developer with experience in JavaScript,
+        modern web technologies, and DevOps practices. I specialize in building
+        full-stack applications using the MERN stack (MongoDB, Express, React,
+        Node.js), designing secure CI/CD pipelines with tools like Docker,
+        Kubernetes, Jenkins, and GitHub Actions, and integrating AI-powered
+        features into real-world applications. I enjoy creating scalable,
+        secure, efficient, and user-friendly solutions that solve practical
+        problems and deliver seamless user experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
